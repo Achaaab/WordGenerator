@@ -1,6 +1,7 @@
 #WordGenerator
 ##Description
 WordGenerator is a very simple word generator based on dictionaries.
+It is written in Java 8. That means you need at least a JRE 1.8 installed on your computer to run it.
 
 ##Synopsis
 `WordGenerator path window length count`
@@ -12,30 +13,32 @@ WordGenerator is a very simple word generator based on dictionaries.
 ##Example
 
 ###Input
+
 * dictionary content:
-  - bisou
-  - brindille
-  - chuchoter
-  - citrouille
-  - coquelicot
-  - effleurer
-  - éphémère
-  - époustouflant
-  - épouvantail
-  - florilège
-  - folie
-  - gingembre
-  - inoubliable
-  - libellule
-  - pamplemousse
-  - parapluie
-  - peaufiner
-  - robinet
-  - tournesol
+
+	- bisou
+	- brindille
+	- chuchoter
+	- citrouille
+	- coquelicot
+	- effleurer
+	- éphémère
+	- époustouflant
+	- épouvantail
+	- florilège
+	- folie
+	- gingembre
+	- inoubliable
+	- libellule
+	- pamplemousse
+	- parapluie
+	- peaufiner
+	- robinet
+	- tournesol
 
 * window size = 2
-* length: 7
-* count: 1
+* length = 7
+* count = 1
 
 ###Algorithm
 ####First step: read the dictionary.
@@ -58,25 +61,25 @@ The word "choter" is not french but is french-looking.
 
 ###Possible output
 list of 7-letters words generated:
-  - licoter
-  - robisol
-  - robisol
-  - efflant
-  - paraple
-  - efflant
-  - robinge
-  - paraple
-  - paraple
-  - touvant
+* licoter
+* robisol
+* robisol
+* efflant
+* paraple
+* efflant
+* robinge
+* paraple
+* paraple
+* touvant
 
 list of 10-letters words generated:
-  - parapleure
-  - efflorille
-  - époufleure
-  - coquellule
-  - robinousse
-  - efflantail
-  - brilluille (this one is not easy to pronunce !)
-  - efflantail
-  - coquellule
-  - roufinesol
+* parapleure
+* efflorille
+* époufleure 
+* coquellule
+* robinousse
+* efflantail
+* brilluille (this one is not easy to pronunce !)
+* efflantail
+* coquellule
+* roufinesol
