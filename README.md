@@ -2,6 +2,7 @@
 ##Description
 WordGenerator is a very simple word generator based on dictionaries.
 It is written in Java 8. That means you need at least a JRE 1.8 installed on your computer to run it.
+The original idea is from YouTube channel "sciencetonnante". I just rewrote it in Java and added variable window size.
 
 ##Synopsis
 `WordGenerator path window length count`
