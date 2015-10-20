@@ -12,6 +12,9 @@ import java.util.Random;
 import java.util.stream.Stream;
 
 /**
+ * Based on sciencetonnante video
+ * https://www.youtube.com/watch?v=YsR7r2378j0
+ * 
  * @author Jonathan Guéhenneux
  */
 public class WordGenerator {
