@@ -3,7 +3,7 @@
 WordGenerator is a very simple word generator based on dictionaries.
 
 ##Synopsis
-WordGenerator path window length count
+`**WordGenerator** path window length count`
   - path: path to dictionary (file containing one word per line, default system encoding is expected)
   - window: the window size
   - length: the generated words length
