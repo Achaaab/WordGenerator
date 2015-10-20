@@ -5,17 +5,15 @@ It is written in Java 8. That means you need at least a JRE 1.8 installed on you
 
 ##Synopsis
 `WordGenerator path window length count`
-  - path: path to dictionary (file containing one word per line, default system encoding is expected)
-  - window: the window size
-  - length: the generated words length
-  - count: the number of words to generate
+ * **path**: path to dictionary (file containing one word per line, default system encoding is expected)
+ * **window**: the window size
+ * **length**: the generated words length
+ * **count**: the number of words to generate
 
 ##Example
 
 ###Input
-
 * dictionary content:
-
 	- bisou
 	- brindille
 	- chuchoter
@@ -35,7 +33,6 @@ It is written in Java 8. That means you need at least a JRE 1.8 installed on you
 	- peaufiner
 	- robinet
 	- tournesol
-
 * window size = 2
 * length = 7
 * count = 1
