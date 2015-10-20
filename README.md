@@ -12,7 +12,7 @@ WordGenerator is a very simple word generator based on dictionaries.
 ##Example
 
 ###Input
-dictionary content:
+* dictionary content:
   - bisou
   - brindille
   - chuchoter
@@ -33,9 +33,9 @@ dictionary content:
   - robinet
   - tournesol
 
-window size: 2
-length: 7
-count: 1
+* window size = 2
+* length: 7
+* count: 1
 
 ###Algorithm
 ####First step: read the dictionary.
