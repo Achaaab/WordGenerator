@@ -1,17 +1,17 @@
 #WordGenerator
-##description
-very simple word generator based on dictionaries
+##Description
+WordGenerator is a very simple word generator based on dictionaries.
 
-##synopsis
+##Synopsis
 WordGenerator path window length count
   - path: path to dictionary (file containing one word per line, default system encoding is expected)
   - window: the window size
   - length: the generated words length
   - count: the number of words to generate
 
-##example
+##Example
 
-###input
+###Input
 dictionary content:
   - bisou
   - brindille
@@ -37,7 +37,7 @@ window size: 2
 length: 7
 count: 1
 
-###algorithm
+###Algorithm
 ####First step: read the dictionary.
 The algorithm reads the dictionary, word by word, substring by substring.
 The substring size is the input parameter "window size".
@@ -56,7 +56,7 @@ Map content with given dictionary:
 Picking the letters c, h, o, t, e and r we get the word "choter".
 The word "choter" is not french but is french-looking.
 
-###possible output
+###Possible output
 list of 7-letters words generated:
   - licoter
   - robisol
