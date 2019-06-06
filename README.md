@@ -1,19 +1,19 @@
-#WordGenerator
-##Description
+# WordGenerator
+## Description
 WordGenerator is a very simple word generator based on dictionaries.
 It is written in Java 8. That means you need at least a JRE 1.8 installed on your computer to run it.
 The original idea is from YouTube channel "sciencetonnante". I just rewrote it in Java and added variable window size.
 
-##Synopsis
+## Synopsis
 `WordGenerator path window length count`
  * **path**: path to dictionary (file containing one word per line, default system encoding is expected)
  * **window**: the window size
  * **length**: the generated words length
  * **count**: the number of words to generate
 
-##Example
+## Example
 
-###Input
+### Input
 * dictionary content:
 	- bisou
 	- brindille
@@ -38,8 +38,8 @@ The original idea is from YouTube channel "sciencetonnante". I just rewrote it i
 * length = 7
 * count = 1
 
-###Algorithm
-####First step: read the dictionary.
+### Algorithm
+#### First step: read the dictionary.
 The algorithm reads the dictionary, word by word, substring by substring.
 The substring size is the input parameter "window size".
 For each substring, it reads the following letter and add it a map.
@@ -57,7 +57,7 @@ Map content with given dictionary:
 Picking the letters c, h, o, t, e and r we get the word "choter".
 The word "choter" is not french but is french-looking.
 
-###Possible output
+### Possible output
 list of 7-letters words generated:
 * licoter
 * robisol
